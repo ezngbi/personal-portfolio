@@ -85,7 +85,7 @@ export default function Banner() {
 									<button
 										onClick={() =>
 											(window.location.href =
-												"/Binh_Nguyen_Resume.pdf")
+												"./Binh_Nguyen_Resume.pdf")
 										}
 									>
 										My Resume <ArrowRightCircle size={25} />
