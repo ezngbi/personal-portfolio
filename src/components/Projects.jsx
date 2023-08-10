@@ -27,7 +27,7 @@ export default function Projects() {
 				"Utilized React components and state management techniques to ensure a modular and maintainable codebase",
 			],
 			imgUrl: projImg4,
-			projectUrl: "https://ezngbi.github.io/2048Clone/",
+			projectUrl: "https://github.com/ezngbi/personal-portfolio",
 		},
 	];
 
