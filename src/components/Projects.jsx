@@ -33,6 +33,16 @@ export default function Projects() {
 
 	const sideProjects = [
 		{
+			title: "Youtube Clone",
+			description: [
+				"Engineered a YouTube clone leveraging TypeScript, Next.js, Express.js Adopted a Dockerized deployment strategy.",
+				"Implemented FFmpeg for efficient video compression, paired with Firebase Functions to manage uploads. Optimized storage with Google Cloud Storage, ensuring swift retrieval and playback, while Google Cloud Pub/Sub was harnessed to trigger events",
+				"Incorporated Firebase Firestore for robust web hosting and ultilized Firebase Auth for secure Google account authentication",
+			],
+			imgUrl: projImg2,
+			projectUrl: "https://yt-web-client-gq7klg4nva-uc.a.run.app/",
+		},
+		{
 			title: "VivyNet AI Research Lab at ASU",
 			description: [
 				"Developed an AI model on Python that translates text input into music using an encoder-decoder architecture with BERT as the encoder and SymphonyNet as the decoder",
@@ -41,15 +51,6 @@ export default function Projects() {
 			imgUrl: projImg3,
 			projectUrl: "",
 		},
-		{
-			title: "Game 2048 Clone",
-			description: [
-				"Developed a clone of the popular game 2048 using JavaScript (ES6), implemented Object-Oriented Programming concepts and Asynchronous Programming (async/await and promises)",
-				"Designed the game to be responsive, and implemented dynamic updates for the game's data on the frontend",
-			],
-			imgUrl: projImg2,
-			projectUrl: "https://ezngbi.github.io/2048Clone/",
-		}
 	];
 	return (
 		<section className="project" id="projects">
