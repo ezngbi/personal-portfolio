@@ -21,18 +21,6 @@ export default function Projects() {
 			projectUrl: "https://serene-sea-98216-d36f724cc4b8.herokuapp.com/",
 		},
 		{
-			title: "This Portfolio website",
-			description: [
-				"Developed a responsive portfolio website with React and implemented advanced animations using CSS and React Bootstrap",
-				"Utilized React components and state management techniques to ensure a modular and maintainable codebase",
-			],
-			imgUrl: projImg4,
-			projectUrl: "https://github.com/ezngbi/personal-portfolio",
-		},
-	];
-
-	const sideProjects = [
-		{
 			title: "Youtube Clone",
 			description: [
 				"Engineered a YouTube clone leveraging TypeScript, Next.js, Express.js Adopted a Dockerized deployment strategy.",
@@ -42,14 +30,26 @@ export default function Projects() {
 			imgUrl: projImg2,
 			projectUrl: "https://yt-web-client-gq7klg4nva-uc.a.run.app/",
 		},
+	];
+
+	const sideProjects = [
 		{
-			title: "VivyNet AI Research Lab at ASU",
+			title: "Instagram Database Clone",
 			description: [
-				"Developed an AI model on Python that translates text input into music using an encoder-decoder architecture with BERT as the encoder and SymphonyNet as the decoder",
-				"Collaborated with the team of 4 people to compare the performance, efficiency, and accuracy of the encoder-decoder model with the lab's primary transformer model for text-to-music translation",
+				"Engineered a robust Instagram Clone Database in MySQL, and designed a normalized schema to model intricate relationships between users, posts, comments, likes, and followers; implemented advanced SQL features including JOINs, subqueries, and aggregate functions for complex data retrieval and manipulation.",
+				"Focused on database optimization and security, utilizing indexing for improved query performance and implementing secure authentication methods to ensure data integrity and safeguard user information",
 			],
 			imgUrl: projImg3,
 			projectUrl: "",
+		},
+		{
+			title: "This Portfolio website",
+			description: [
+				"Developed a responsive portfolio website with React and implemented advanced animations using CSS and React Bootstrap",
+				"Utilized React components and state management techniques to ensure a modular and maintainable codebase",
+			],
+			imgUrl: projImg4,
+			projectUrl: "https://github.com/ezngbi/personal-portfolio",
 		},
 	];
 	return (
